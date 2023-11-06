@@ -5,10 +5,10 @@ This is an example of an API program for Create, Read, Update, and Delete (CRUD)
 ## Config
 First, you have to create a table named "barang" using a MySQL database. The following are the columns contained in the following table.
 
-id = int, primaryKey, Auto Increment
-nama = varchar
-stok = int
-harga = float
+id = int, primaryKey, Auto Increment,
+nama = varchar,
+stok = int,
+harga = float,
 
 Last, you must change the variable value on config/database.go as you create at MySQL database.
 
